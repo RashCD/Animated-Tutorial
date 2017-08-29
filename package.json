@@ -1,0 +1,23 @@
+{
+  "name": "animatedTutorial",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start-android": "node node_modules/react-native/local-cli/cli.js start",
+    "start-ios": "node node_modules/react-native/local-cli/cli.js start --port 8082"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.6",
+    "react-native": "0.44.0",
+    "react-native-linear-gradient": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-jest": "20.0.3",
+    "babel-preset-react-native": "2.0.1",
+    "jest": "20.0.4",
+    "react-test-renderer": "16.0.0-alpha.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
